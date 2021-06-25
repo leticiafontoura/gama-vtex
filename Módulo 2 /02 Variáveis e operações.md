@@ -88,9 +88,15 @@ programa {
 ```
 
 Sobre o código acima, uma curiosidade importante.
+
 Vamos supor que os valores fornecidos pelo usuário sejam 20 e 3.
+
 O resultado da soma será 23.
+
 O resultado da subtração será 17.
+
 O resultado da multiplicação será 60.
+
 O resultado da divisão será 6. **Opa, 6?** Sim, porque logo no início do código, foi declarado que a variável `resultado` é do tipo **inteiro**. Números inteiros não possuem casas decimais, então o valor de saída será arredondado! :)
+
 O resultado do resto da divisão será 2.
