@@ -1,19 +1,19 @@
-Como é a carreira de desenvolvimento?
+# Como é a carreira de desenvolvimento?
 
 - O que um desenvolvedor faz?
 - Como desenvolvemos a nossa carreira?
 
-BACK-END 
+## BACK-END 
 
 Softwares que servem como "backstage" de sistema. Exemplo: um pedido feito em um e-commerce, manipulação dos dados em um sistema (pedido, pagamento, etc)
 
-FRONT-END
+## FRONT-END
 
 Está relacionado a todo contato do usuário com a interface. Se preocupa com a facilidade de uso, apresentação, intuitividade, porque no fim das contas, o usuário só interage com o front-end de um sistema, não com o back-end.
 
 Apps, banco de dados...
 
-Habilidades extras
+### Habilidades extras
 
 Trabalhar em equipe de forma técnica, utilizando ferramentas de versionamento como o git, permitindo a integração de diversos desenvolvedores ao controlar versões, alterações etc de um código.
 
@@ -21,7 +21,7 @@ Frameworks de desenvolvimento ágil (entregar fracionadas e mais rápidas, por e
 
 Soft skills - habilidades não-técnicas. Boa comunicação, respeito a hierarquia, clareza, saber delegar e assumir responsabilidades etc.
 
-DESENVOLVIMENTO DE CARREIRA 
+## DESENVOLVIMENTO DE CARREIRA 
 
 Júnior - sabe um pouco de front, back, git, agile...
 

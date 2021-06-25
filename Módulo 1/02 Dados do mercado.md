@@ -1,4 +1,4 @@
-Dados do mercado
+# Dados do mercado
 
 Atualmente, existem mais de 20 mil vagas abertas de desenvolvimento só no Estado de São Paulo.
 
@@ -11,7 +11,6 @@ Além de desenvolvedores, o mercado da programação abrange áreas como:
     - profissionais de ui/ux,
     - profissionais de devops,
     - profissionais de telecomunicações
+e muitas outras.
 
-    e muitas outras.
-
-O mundo é o mercado de programação.
+### O mundo é o mercado de programação.
