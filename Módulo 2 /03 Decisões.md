@@ -58,7 +58,7 @@ programa {
 ```
 Supondo que os dados de entrada fornecidos sejam 10 e 8.
 
-A média `media = (10 + 8) / 2` será 9. 9 é maior ou igual a 7? **SIM! VERDADEIRO!** Sendo assim, a condição `se` é atendida e, após sua execução, o `senão` é ignorando.
+A média `media = (10 + 8) / 2` será 9. 9 é maior ou igual a 7? **SIM! VERDADEIRO!** Sendo assim, a condição `se` é atendida e, após sua execução, o `senão` é ignorado.
 
 Agora, se os dados de entrada fornecidos forem 10 e 3:
 
