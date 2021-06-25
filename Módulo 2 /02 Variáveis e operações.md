@@ -16,7 +16,7 @@ As informações de variáveis podem ser **quantificadas** e **qualificadas**.
 
 De forma básica, a qualificação das informações que podem ser armazenadas em variáveis são inteiros (números), real (números com pontos) e cadeias ("").
 
-Para o computador, qualificar as informações servem para o computador saber como ele vai codificar a informação.
+Para o computador, qualificar as informações serve para ele saber como ele vai codificar a informação.
 
 A quantificação é a ocupação da memória, quanto de espaço da memória você usa no programa.
 
