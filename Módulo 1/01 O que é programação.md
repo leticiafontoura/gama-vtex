@@ -1,11 +1,12 @@
-#O que é programação?
+# O que é programação?
 
-##Objetivo da programação
+## Objetivo da programação
 
 **Desenvolver software para outras pessoas.**
 
-##- Por que desenvolver software?
-    Toda empresa hoje ou é digital ou ainda não percebeu que é digital. Apps, sites, sistemas, tudo está conectado e tudo precisa ser desenvolvido.
+## - Por que desenvolver software?
+
+Toda empresa hoje ou é digital ou ainda não percebeu que é digital. Apps, sites, sistemas, tudo está conectado e tudo precisa ser desenvolvido.
 
 Existem soluções prontas, mas elas não atingem a massa de necessidades existentes no mercado.
 
