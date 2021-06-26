@@ -48,7 +48,7 @@ remove o arquivo de tudo, até da maquina
 
 desfaz a última alteração
 
-`git restore <nome do arquivo`
+`git restore <nome do arquivo>`
 
 usado após o `git reset HEAD`, ele recupera o arquivo deletado da máquina
 
