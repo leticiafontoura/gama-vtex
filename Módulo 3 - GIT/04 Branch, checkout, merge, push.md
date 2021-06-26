@@ -8,7 +8,7 @@ Quando criado o projeto no github, ele dá umas instruções inicias para como "
 
 `git remote add origin <endereço do repositório remoto>` //o origin aqui é mais uma convenção de boas práticas. seu servidor local é a origem, né? :) 
 
-`git branch -M main`
+`git branch -M main` //esse comando só precisa ser executado se no seu repositório local, a branch principal tem o nome de MASTER. se ela já está definida como MAIN, não precisa. o comando `-M` serve pra renomear a branch.
 
 Agora precisamos enviar nossos arquivos e commits para o repositório remoto, através do comando
 
