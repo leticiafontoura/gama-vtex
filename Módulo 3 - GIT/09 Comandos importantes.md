@@ -64,4 +64,8 @@ mostra o status atual do repositório. arquivos que estão ou não sendo trackea
 
 altera o nome da branch principal
 
+`git remote add origin <endereço do repositório remoto>`
+
+adiciona o repositório local a um repositório remoto
+
 :D
