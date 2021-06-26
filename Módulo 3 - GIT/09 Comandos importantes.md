@@ -36,7 +36,7 @@ une as branches do projeto
 
 entra na branch que você especificar
 
-`git rm --cached`
+`git rm --cached <arquivo>`
 
 remove algum arquivo commitado que você não quer mais que o git trackeie. ele não remove o arquivo do repositório local.
 
