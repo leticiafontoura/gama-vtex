@@ -4,3 +4,4 @@
 
 `pullrequest` é submeter essas alterações/contribuições ao projeto principal, e o dono do projeto pode analisá-las e incorporá-las ao projeto principal. :)
 
+Uma boa prática é fazer as alterações em uma branch separada da principal, e fazer o `push -u origin nomedabranchnovacriada` :D
