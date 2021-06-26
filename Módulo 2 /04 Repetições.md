@@ -134,3 +134,16 @@ Supondo que o número dado pelo usuário seja 10, o programa irá calcular o qua
 8^2 = 64
 10^2 = 100
 ```
+
+Agora, supondo que o número final dado não seja par. Digamos, 13:
+
+```
+2^2 = 4
+4^2 = 16
+6^2 = 36
+8^2 = 64
+10^2 = 100
+12^2 = 144
+```
+
+O número 13 não foi incluído pois este não é um número par, e o último número par MENOR que o número dado (13) é o 12. :)
