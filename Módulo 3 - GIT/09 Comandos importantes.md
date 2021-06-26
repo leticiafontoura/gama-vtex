@@ -60,4 +60,8 @@ mostra todos os commits feitos
 
 mostra o status atual do repositório. arquivos que estão ou não sendo trackeados, que tiveram alteração mas não foram commitados, etc
 
+`git branch -M <nomedabranch>`
+
+altera o nome da branch principal
+
 :D
