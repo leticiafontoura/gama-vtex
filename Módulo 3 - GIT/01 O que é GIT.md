@@ -14,7 +14,7 @@ O texto a seguir, elaborado pela [Kenzie Academy](https://kenzie.com.br/blog/o-q
 > ### O que é Git?
 > Criado pelo Engenheira de software Linus Torvalds, conhecido por ter desenvolvido, também, o núcleo Linux, o GIT é um Sistema de Controle de Versões Distribuído — ou DVCS.
 
-> Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) Programadora(a) possa > regredir a versões anteriores de uma aplicação de modo simples e rápido.
+> Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um(a) Programadora(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido.
 > 
 > Este tipo de sistema também simplifica muito o processo de compartilhamento de um projeto com um time, por exemplo, ou com outros(as) programadores(as).
 > 
@@ -29,7 +29,7 @@ O texto a seguir, elaborado pela [Kenzie Academy](https://kenzie.com.br/blog/o-q
 > 
 > Para aqueles(as) que não utilizam, talvez seja necessário reescrever o código desta função, consumindo novamente o tempo gasto para desenvolvê-la da primeira vez.
 > 
-> Diante desta situação, podemos concluir que uma das maiores vantagens de usar o GIT é a economia de tempo e recursos, uma vez que a consulta de diferentes versões de uma mesma aplicação é muito recorrente > no trabalho do(a) Programadora(a).
+> Diante desta situação, podemos concluir que uma das maiores vantagens de usar o GIT é a economia de tempo e recursos, uma vez que a consulta de diferentes versões de uma mesma aplicação é muito recorrente no trabalho do(a) Programadora(a).
 > 
 > Outro grande benefício do GIT é justamente o fato de ele ser um sistema distribuído.
 > 
