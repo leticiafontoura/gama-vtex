@@ -46,6 +46,10 @@ remove algum arquivo commitado que você não quer mais que o git trackeie. ele 
 
 remove o arquivo de tudo, até da maquina
 
+`git reset --hard númeroDoCommit`
+
+volta para o estado do commit identificado
+
 `git reset HEAD`
 
 desfaz a última alteração
