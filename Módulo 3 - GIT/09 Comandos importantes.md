@@ -1,5 +1,7 @@
 # Comandos importantes
 
+[Cheatsheet do Github aqui](https://education.github.com/git-cheat-sheet-education.pdf)
+
 `git init`
 
 inicia um repositório git local
