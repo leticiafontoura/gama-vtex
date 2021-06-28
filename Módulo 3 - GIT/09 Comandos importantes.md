@@ -50,9 +50,9 @@ remove o arquivo de tudo, até da maquina
 
 volta para o estado do commit identificado
 
-`git reset HEAD`
+`git reset HEAD` 
 
-desfaz a última alteração
+desfaz a última alteração/desfaz o último commit
 
 `git restore <nome do arquivo>`
 
@@ -75,3 +75,5 @@ altera o nome da branch principal
 adiciona o repositório local a um repositório remoto
 
 :D
+
+Site ótimo com dicas de git em diversas situações [aqui](https://sethrobertson.github.io/GitFixUm/fixup.html#remove_last) :D
