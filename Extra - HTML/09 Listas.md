@@ -59,3 +59,6 @@ Palavra Café
 
     Café é uma bebida geralmente bebida quente
 
+Mais sobre listas desordenadas [aqui](https://www.w3schools.com/tags/tag_ul.asp) :)
+Mais sobre listas ordenadas [aqui](https://www.w3schools.com/tags/tag_ol.asp) :)
+Mais sobre listas de definição [aqui](https://www.w3schools.com/tags/tag_dl.asp) :)
