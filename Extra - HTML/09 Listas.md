@@ -44,7 +44,7 @@ Assim, a renderização será:
 6. Item 1
 7. Item 2
 
-# Definição
+## Definição
 
 ```
 <dl>
@@ -56,5 +56,6 @@ Assim, a renderização será:
 A renderização será:
 
 Palavra Café
+
     Café é uma bebida geralmente bebida quente
 
