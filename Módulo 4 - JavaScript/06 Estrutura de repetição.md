@@ -15,11 +15,13 @@ Então, no console, imprimimos o array `colors` na posição do valor `i` para a
 
 A tabela abaixo exemplifica como ficam os valores e as saídas a cada iteração:
 
-Valor de i no começo | Saída | Valor de i no final
----------------------|-------|--------------------
-0|colors[0], que é green| i + 1 = 0 + 1 = 1
-1|colors[1], que é yellow| i + 1 = 1 + 1 = 2
-2|colors[2], que é blue| i + 1 = 2 + 1 = 3
-3|colors[3], que é black|i + 1 = 3 + 1 = 4
-4|colors[4], que é gray| i + 1 = 4 + 1 = 5
-5| aqui não acontece outra repetição pois a nossa condição é enquanto i < tamanho do array, e o array tem tamanho 5| x
+Repetição | Valor de i no começo | Saída | Valor de i no final
+----------|---------------------|-------|--------------------
+1|0|colors[0], que é green| i + 1 = 0 + 1 = 1
+2|1|colors[1], que é yellow| i + 1 = 1 + 1 = 2
+3|2|colors[2], que é blue| i + 1 = 2 + 1 = 3
+4|3|colors[3], que é black|i + 1 = 3 + 1 = 4
+5|4|colors[4], que é gray| i + 1 = 4 + 1 = 5
+**|5| **| **
+
+**aqui não acontece outra repetição pois a nossa condição é enquanto i < tamanho do array, e o array tem tamanho 5. se fosse i <= tamanho do array, teríamos um erro, pois no array não existe a posição índice 5.
