@@ -12,7 +12,7 @@ newListForm.addEventListener("submit", function(e) {
 
     if (listName === null || listName === "") return; //se a listName estiver vazia, nada acontece
 
-    // const list = listName; //função que cria lista e recebe como parametro o conteúdo de listName;
+    // const list = createList(listName); //função que cria lista e recebe como parametro o conteúdo de listName;
     newListInput.value = null; //depois que o item for adicionado, zera o valor do input
     lists.push(listName); //adiciona o item criado em list no array lists;
 
