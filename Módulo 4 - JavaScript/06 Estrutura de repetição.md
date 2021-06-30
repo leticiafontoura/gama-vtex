@@ -75,7 +75,6 @@ do {
 O resultado no console será:
 
 ```
-0
 1
 2
 3
