@@ -12,25 +12,25 @@ newListForm.addEventListener("submit", function(e) {
 
     if (listName === null || listName === "") return; //se a listName estiver vazia, nada acontece
 
-    // const list = createList(listName); //função que cria lista e recebe como parametro o conteúdo de listName;
+    const list = createList(listName); //função que cria lista e recebe como parametro o conteúdo de listName;
     newListInput.value = null; //depois que o item for adicionado, zera o valor do input
-    lists.push(listName); //adiciona o item criado em list no array lists;
+    lists.push(list); //adiciona o item criado em list no array lists;
 
     render();
 });
 
-// function createList(item) {
-//     console.log({id: Date.now().toString(), name: item})
-//     return {id: Date.now().toString(), name: item};
+function createList(name) {
+    console.log({id: Date.now().toString(), name: name})
+    return {id: Date.now().toString(), name: name};
     
-// };
+};
 
 function render() {
     clearElement(listContainer);
     lists.forEach(function(list) {
         const item = document.createElement("li");
         item.classList.add("item");
-        item.innerText = list;
+        item.innerText = list.name;
         listContainer.appendChild(item);
     })
 };
@@ -40,3 +40,21 @@ function clearElement(element) {
         element.removeChild(element.firstChild);
     }
 }
+
+/*
+
+também daria pra fazer assim:
+
+newListForm.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const listName = newListInput.value;
+    if (listName === null || listName === "") return;
+    newListInput.value = null;
+    lists.push(listName);
+    render();
+});
+
+e excluir a função createList
+
+
+*/
