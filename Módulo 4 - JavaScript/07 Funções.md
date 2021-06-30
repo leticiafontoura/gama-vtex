@@ -2,7 +2,7 @@
 
 Funções tem o poder de executar algo para nós. 
 
-A declaração se dá através da palavra reservada `fuction`, seguida (ou não) de um nome (uma boa prática é dar nome como verbo, já que a função é uma ação), depois `()`, e nesse `()` podem ser inseridos parâmetros.
+A declaração se dá através da palavra reservada `function`, seguida (ou não) de um nome (uma boa prática é dar nome como verbo, já que a função é uma ação), depois `()`, e nesse `()` podem ser inseridos parâmetros.
 
 ```javascript
 function sayHello() {
