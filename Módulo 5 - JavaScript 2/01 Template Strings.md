@@ -14,5 +14,4 @@ faremos
 console.log(`Letícia é ${role}`);
 ```
 
-Dentro de `${}` escrevemos código JavaScript, interpolando com strings através de ````
-
+Dentro de `${}` escrevemos código JavaScript, interpolando com strings através de ``
