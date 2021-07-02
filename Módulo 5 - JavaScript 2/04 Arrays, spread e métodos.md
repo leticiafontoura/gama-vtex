@@ -128,7 +128,7 @@ Quando coloca um valor inicial, é como se fosse adicionado esse valor no iníci
 
 Uma explicação muito boa e detalhada sobre `.reduce()` você encontra [neste artigo](https://raullesteves.medium.com/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380) :)
 
-![array cheatsheet](/imgs/arraycheat1.jpeg)
-![array cheatsheet](/imgs/arraycheat2.png)
-![array cheatsheet](/imgs/arraycheat3.png)
-![array cheatsheet](/imgs/arraycheat4.png)
+![array cheatsheet](imgs/arraycheat1.jpeg)
+![array cheatsheet](imgs/arraycheat2.png)
+![array cheatsheet](imgs/arraycheat3.png)
+![array cheatsheet](imgs/arraycheat4.png)
