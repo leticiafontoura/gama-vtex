@@ -35,7 +35,7 @@ jogadores = ["Leticia", "Daniel", "Gabriela"];
 ## Enum
 
 ```javascript
-enum StatusAprovaca() {
+enum StatusAprovacao() {
     Aprovado = "001",
     Pendente = "002",
     Rejeitado = "003"
