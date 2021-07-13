@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Input = styled.input`
     border: 1px solid #efeeb4;
+    text-align: center;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
@@ -87,4 +88,24 @@ export const ErrorMessage = styled.span`
 
 export const Strong = styled.span`
     font-weight: 700;
+`
+
+export const Footer = styled.footer`
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding: 10px 0;
+`
+
+export const LinkGit = styled.a`
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    &:visited {
+        color: #dad873;
+    }
 `

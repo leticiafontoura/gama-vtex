@@ -1,10 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+export const Body = styled.div`
+    width: 100%;
+    height: 100%;
+`
+
 export const Container = styled.div`
     width: 100%;
     max-width: 991px;
-    margin: 0 auto;
+    margin: 4rem auto;
 `
 
 export const Title = styled.h1`
@@ -14,6 +19,15 @@ export const Title = styled.h1`
     color: #efeeb4;
     margin-bottom: 2rem;
 `;
+
+export const SubTitle = styled.h3`
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 200;
+    color: #efeeb4;
+    margin-bottom: 2rem;
+`;
+
 export const List = styled.ul`
     list-style: none;
     padding: 0;
@@ -46,7 +60,9 @@ export const LineBreak = styled.p`
 
 export const LinkRepo = styled.a`
 height: auto;
-width: auto;
+display: block;
+cursor: pointer;
+width: 200px;
 border-radius: 15px;
 margin: .5rem 0;
 border: none;
@@ -55,10 +71,14 @@ background-color: #309975;
 font-family: 'Inconsolata', monospace;
 color: #fff;
 text-decoration: none;
+transition: 0.2s;
 &:focus,
 &:active {
     outline: none;
     box-shadow: none;
+}
+&:hover {
+    background-color: #57bc9a;
 }
 `
 
@@ -66,7 +86,7 @@ export const LinkHome = styled(Link)`
 display: block;
 width: 3rem;
 border-radius: 15px;
-margin: 1rem auto;
+margin: 1rem auto 3rem auto;
 border: none;
 padding: 0.5rem 1rem;
 background-color: #309975;
@@ -80,16 +100,29 @@ text-decoration: none;
 }
 `
 
-export const Cont = styled.div`
-display: flex;
+export const Avatar = styled.img`
+    border-radius: 50%;
+    width: 200px;
+    margin: 0 auto 2rem auto;
+    display: block;
 `
 
-
-export const RepoCol = styled.div`
-
+export const Footer = styled.footer`
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    
+    bottom: 0;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding: 10px 0;
 `
 
-export const LinkCol = styled.div`
-display: flex;
-    flex-direction: column;
+export const LinkGit = styled.a`
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    &:visited {
+        color: #dad873;
+    }
 `

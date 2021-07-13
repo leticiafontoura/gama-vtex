@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import * as S from "./styled";
 import { useHistory } from "react-router-dom";
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Home() {  
   const history = useHistory();
@@ -13,18 +14,20 @@ function Home() {
     axios.get(`https://api.github.com/users/${usuario}/repos`)
     .then(response => {
       const repositories = response.data;
-      const repositoriesUser = [];
+      let repositoryAvatar = [];
       repositories.map((repository) => {
-        repositoriesUser.push(repository.owner.login);
+        repositoryAvatar.push(repository.owner.avatar_url);
       });
+      repositoryAvatar = repositoryAvatar[0];
       const repositoriesName = [];
       repositories.map((repository) => {
         repositoriesName.push(repository.name);
       })
       localStorage.setItem("repositoriesName", JSON.stringify(repositoriesName));
-      setErro(false);
-      history.push("/repositories");
+      // setErro(false);
+      // history.push("/repositories");
       localStorage.setItem("repositoriesUser", usuario);
+      localStorage.setItem("repositoryAvatar", repositoryAvatar);
       setErro(false);
       history.push("/repositories");
     })
@@ -48,6 +51,7 @@ function Home() {
         <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
       </S.Content>
       {erro ? <S.ErrorMessage>Opa! <S.Strong>Usuário não encontrado.</S.Strong> Tem certeza que você digitou corretamente? Tente de novo! :)</S.ErrorMessage> : ""}
+      <S.Footer><p >Desenvolvido por <S.LinkGit href="https://github.com/leticiafontoura" target="_blank">Letícia Fontoura <GitHubIcon style={{verticalAlign: "sub"}}/></S.LinkGit></p></S.Footer>
     </S.HomeContainer>
   );
 }
