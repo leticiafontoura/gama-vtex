@@ -13,6 +13,7 @@ function Home() {
     axios.get(`https://api.github.com/users/${usuario}/repos`)
     .then(response => {
       const repositories = response.data;
+      console.log(repositories);
       const repositoriesUser = [];
       repositories.map((repository) => {
         repositoriesUser.push(repository.owner.login);
@@ -20,11 +21,18 @@ function Home() {
       const repositoriesName = [];
       repositories.map((repository) => {
         repositoriesName.push(repository.name);
-      })
+      });
+      const reposLink = [];
+      repositories.map((repository) => {
+        reposLink.push(repository.html_url)
+      });
       localStorage.setItem("repositoriesName", JSON.stringify(repositoriesName));
       setErro(false);
       history.push("/repositories");
       localStorage.setItem("repositoriesUser", usuario);
+      setErro(false);
+      history.push("/repositories");
+      localStorage.setItem("repositoriesLink", JSON.stringify(reposLink));
       setErro(false);
       history.push("/repositories");
     })
